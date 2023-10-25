@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 30px;
+    width: 100%;
+}
+.logo img{
+    width: 45%;
+}
+body{
+    font-family:Josefin Sans;
+    background-color: linear, 135deg, from hsl(0, 80%, 86%),
+    to hsl(0, 74%, 74%);
+}
+.contents{
+    text-align: center;
+    padding: 20px;
+}
+.contents h1{
+    font-size: 45px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.contents h1 span{
+    font-weight: 300;
+}
+.contents p{
+    color: hsl(0, 36%, 70%);
+    font-size: 16px;
+    font-weight: 400;
+}
+form{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+form button{
+    background-color:hsl(0, 64%, 71%);
+    width: 65px;
+    height: 45px;
+    border: 1px solid hsl(0, 49%, 85%);
+    position: absolute;
+    right: 30px;
+    border-radius: 27px;
+}
+form input{
+    width: 300px;
+    height: 45px;
+    border: 1px solid hsl(0, 49%, 85%) ;
+    border-radius: 26px;
+    padding-left: 20px;
+    font-family: Josefin Sans;
+}
+.desktop img{
+    display: none;
+}
+/* desktop */
+@media screen and (min-width: 1024px){
+    .hero-image img{
+        width: 100%;
+        display: none;
+    }
+    .desktop img{
+        width:709px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-content: flex-end;
+        height:100vh;
+        
+    } 
+    .response{
+        display: flex;
+    }
+    .both{
+        font-family:  Josefin Sans;
+        display: flex;
+        width: 100vh;
+        flex-direction: column;
+    }
+    form input{
+        width: 80%;
+        height: 45px;
+        border: 1px solid hsl(0, 49%, 85%) ;
+        border-radius: 26px;
+        padding-left: 20px;
+        font-family: Josefin Sans;
+    }
+    form button{
+        background-color:hsl(0, 64%, 71%);
+        width: 65px;
+        height: 45px;
+        border: 1px solid hsl(0, 49%, 85%);
+        position: absolute;
+        right: 755px;
+        border-radius: 27px;
+    }
+    .logo{
+        padding: 60px;
+    }
+    .logo img{
+        width: 250px;
+    }
+    .contents{
+        padding: 70px;
+        text-align: left;
+    }
+    .contents h1{
+        text-align: left;
+        font-size: 45px;
+        font-weight: 400;
+    }
+    .contents h1 span{
+        font-weight: 300;
+    }
+    .contents p{
+        color: hsl(0, 36%, 70%);
+        font-size: 16px;
+        font-weight: 400;
+        width: 450px;
+    }
+}
