@@ -67,16 +67,17 @@ form input{
         display: none;
     }
     .desktop img{
-        width:709px;
+        width:90%;
+        margin-left: 75px;
         display: flex;
         flex-direction: row;
         justify-content: end;
         align-content: flex-end;
-        height:100vh;
-        
+        height: 85%;
     } 
     .response{
         display: flex;
+        margin-bottom: 0%;
     }
     .both{
         font-family:  Josefin Sans;
